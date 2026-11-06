@@ -1,0 +1,20 @@
+apiVersion: v2
+name: rushdb
+description: RushDB, the database for AI, as a single-node StatefulSet with a persistent volume.
+type: application
+# Released together with the engine; publish.yml sets both from the release tag.
+version: 3.0.3
+appVersion: '3.0.3'
+keywords:
+  - rushdb
+  - database
+  - graph
+  - vector-search
+  - full-text-search
+home: https://rushdb.com
+sources:
+  - https://github.com/rush-db/rushdb
+maintainers:
+  - name: RushDB Team
+    url: https://rushdb.com
+icon: https://raw.githubusercontent.com/rush-db/rushdb/main/rushdb-logo.svg
