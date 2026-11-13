@@ -14,7 +14,7 @@ categories.workspace = true
 [dependencies]
 rushdb-protocol = { workspace = true }
 serde_json = { workspace = true }
-tonic = { version = "0.12", features = ["transport", "codegen", "prost"] }
+tonic = { version = "0.13", features = ["transport", "codegen", "prost"] }
 prost = { version = "0.13", features = ["prost-derive"] }
 bytes = "1"
 tower = "0.5"
