@@ -94,7 +94,7 @@ clap = { version = "4.6", features = ["derive", "env"] }
 futures = "0.3"
 async-trait = "0.1"
 tempfile = "3"
-tonic = "0.12"
+tonic = "0.13"
 prost = "0.13"
 
 [profile.dev]
